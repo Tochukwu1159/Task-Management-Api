@@ -21,7 +21,7 @@ File-based storage (JSON)
 Installation
 Clone the repository:
 
-git clone <repository_url>
+git clone <Tochukwu1159/Task-Management-Api.git>
 Install dependencies:
 
 
@@ -32,7 +32,7 @@ To start the server, run:
 
 
 npm start
-The server will start on port 3000 by default. You can access the API endpoints using tools like Postman or curl.
+The server will start on port 4400 by default. You can access the API endpoints using tools like Postman or curl.
 
 API Endpoints
 GET /tasks: Retrieve all tasks.
