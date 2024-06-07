@@ -13,10 +13,4 @@ const updateTaskSchema = Joi.object({
 
 
 
- const generateToken = (Task) => {
-  const passPhrase = process.env.JWT_SECRETE;
-  return jwt.sign(Task, passPhrase, { expiresIn: '7d' });
-};
-
-
-module.exports ={ createTaskSchema,  generateToken, updateTaskSchema };
+module.exports ={ createTaskSchema, updateTaskSchema };
