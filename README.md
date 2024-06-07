@@ -25,13 +25,13 @@ git clone <Tochukwu1159/Task-Management-Api.git>
 Install dependencies:
 
 
-cd task-management-api
-npm install
+cd assignment
+yarn install
 Usage
 To start the server, run:
 
 
-npm start
+yarn run start
 The server will start on port 4400 by default. You can access the API endpoints using tools like Postman or curl.
 
 API Endpoints
